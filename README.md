@@ -1,19 +1,8 @@
-#![Gulp Starter](src/images/gulp-starter-logo.png)
+# TCC Theme
 
-Gulp Starter is a delicious blend of tasks and build tools poured into [Gulp](http://gulpjs.com/) to form a full-featured modern asset pipeline. It can be used as-is as a static site builder, or can be configured and integrated into your own development environment and site or app structure. Checkout [`gulpfile.js/extras`](/gulpfile.js/extras) for Rails and Craft configurations.
+The idea of this project is to create the views and theme to our TCC project.
 
-[![Build Status](https://travis-ci.org/vigetlabs/gulp-starter.svg?branch=static-server)](https://travis-ci.org/vigetlabs/gulp-starter)
-
-```bash
-git clone https://github.com/vigetlabs/gulp-starter.git MyApp
-cd MyApp
-npm install
-npm run gulp
-```
-
-**Demo compiled with gulp-starter:** http://vigetlabs.github.io/gulp-starter/
-
-(view files on [gh-pages](https://github.com/vigetlabs/gulp-starter/tree/gh-pages) branch)
+To use gulp, we got the amazing [gulp starter](https://github.com/vigetlabs/gulp-starter) project, and will make our own customizations from it.
 
 ## Features
 - **CSS:** [Sass](http://sass-lang.com/) (indented, scss, or both)
@@ -116,7 +105,7 @@ Modular ES6 with [Babel](http://babeljs.io/) and [Webpack](http://webpack.github
 
 I've included various examples of generating mulitple files, async module loading and splitting out shared dependences to show the power of Webpack. Adjust the webpack config (`.gulpfile.js/config/webpack`) to fit your project. For smaller one-pagers, you'll probably want to skip the async stuff, and just compile a single bundle.
 
-There are a couple of webpack options exposed in the top-level `gulpfile.js/config.json` file.
+There are a couple of webpack options exposed in them top-level `gulpfile.js/config.json` file.
 
 `entries`: Discrete js bundle entry points. A js file will be bundled for each item. Paths are relative to the `javascripts` folder. This maps directly to `webpackConfig.entry`.
 
